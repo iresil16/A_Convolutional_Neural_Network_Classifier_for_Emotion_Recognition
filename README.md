@@ -83,3 +83,14 @@ pip install tensorflow keras numpy matplotlib scikit-learn opencv-python
 ## 📄 Report
 A detailed report discussing the methodology, experiments, and results is available as report.pdf in the repository. This document provides in-depth insights into the project and its findings.
 
+## Repository Structure
+
+`code/`  
+Jupyter notebooks for training and evaluating the CNN models on the FER2013 dataset. Includes experiments with fine-grained classes and binary classification.
+
+`report.pdf`  
+Full project report discussing methodology, experiments, and results.
+
+`README.md`  
+This file, providing an overview of the project, repository structure, and instructions.
+
