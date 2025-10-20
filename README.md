@@ -44,12 +44,16 @@ The primary objective is to explore how CNNs process facial images to discrimina
 - Confusion matrices and ROC curves used for qualitative assessment of class separability.  
 
 ## Repository Structure
+## Repository Structure
 
-code/
-├─ CNN_Classifier_FineClasses.ipynb # 5-class training with post-training binarization
-├─ CNN_Classifier_Binary.ipynb # 2-class pre-binarized training
-data/
-├─ fer2013/ # FER-2013 dataset files
-report.pdf # Full project report with methodology and analyses
-figures/
-├─ saliency_maps/ # Sample saliency map visualizations
+- `code/`  
+  Jupyter notebooks for training the CNN on facial expression datasets, including fine-grained 5-class training with post-training binarization and pre-binarized 2-class training.
+
+- `data/`  
+  FER-2013 dataset files used for model training and evaluation.
+
+- `report.pdf`  
+  Full project report containing methodology, analyses, and figures.
+
+- `figures/`  
+  Visualizations of saliency maps highlighting network attention on facial features.
